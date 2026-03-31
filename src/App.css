@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #141414;
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+.taplist {
+  padding: 32px 40px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Header */
+.taplist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.venue-name {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.venue-primary {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFDB00;
+  letter-spacing: 0.01em;
+}
+
+.venue-secondary {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #727272;
+  letter-spacing: 0.15em;
+}
+
+.on-tap-now {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #727272;
+  letter-spacing: 0.2em;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #333;
+  margin-bottom: 28px;
+}
+
+/* Grid */
+.tap-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+/* Card */
+.tap-card {
+  background-color: rgba(20, 20, 20, 0.82);
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 18px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tap-card.staff-pick {
+  border-color: #3a3020;
+}
+
+.tap-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.tap-number {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #727272;
+  letter-spacing: 0.15em;
+}
+
+.staff-pick-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #FFDB00;
+  letter-spacing: 0.15em;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.beer-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #f0f0f0;
+  line-height: 1.25;
+  margin-bottom: 2px;
+}
+
+.brewery-name {
+  font-size: 0.85rem;
+  color: #FFDB00;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.beer-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.style-pill {
+  background-color: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  color: #A6ABAD;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.abv {
+  font-size: 0.8rem;
+  color: #A6ABAD;
+  font-weight: 500;
+}
+
+.brewery-logo {
+  height: 144px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 4px;
+}
+
+.beer-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.location {
+  font-size: 0.82rem;
+  color: #727272;
+  line-height: 1.5;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFDB00;
+}

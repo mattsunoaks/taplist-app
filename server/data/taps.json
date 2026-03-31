@@ -1,0 +1,90 @@
+[
+  {
+    "tap": 1,
+    "name": "Apricot Wheat",
+    "brewery": "Woody's",
+    "location": "Redding, CA",
+    "style": "Fruited Wheat Beer",
+    "abv": "4.5",
+    "price": "7",
+    "logo": "logo-1774979376852.png",
+    "staffPick": false
+  },
+  {
+    "tap": 2,
+    "name": "Cali Hop Trip",
+    "brewery": "Altamont Beer Works",
+    "location": "Livermore, CA",
+    "style": "American IPA",
+    "abv": "6.5",
+    "price": "7",
+    "logo": "logo-1774979509229.jpeg",
+    "staffPick": false
+  },
+  {
+    "tap": 3,
+    "name": "Stardusk",
+    "brewery": "Fogbelt",
+    "location": "Santa Rosa, CA",
+    "style": "Hazy IPA",
+    "abv": "6.8",
+    "price": 7,
+    "logo": "logo-1774979623287.jpeg",
+    "staffPick": false
+  },
+  {
+    "tap": 4,
+    "name": "Chat G.O.D",
+    "brewery": "HenHouse",
+    "location": "Santa Rosa, CA",
+    "style": "Hazy IPA",
+    "abv": "7.2",
+    "price": "7",
+    "logo": "logo-1774979806679.jpg",
+    "staffPick": false
+  },
+  {
+    "tap": 5,
+    "name": "Hella Hoppy",
+    "brewery": "Altamont Beer Works",
+    "location": "Livermore, CA",
+    "style": "Double IPA",
+    "abv": "9",
+    "price": "7",
+    "logo": "logo-1774979856875.jpeg",
+    "staffPick": false
+  },
+  {
+    "tap": 6,
+    "name": "Organic Pilsner",
+    "brewery": "Eel River",
+    "location": "Fortuna, CA",
+    "style": "Pilsner",
+    "abv": "4.8",
+    "price": "7",
+    "logo": "logo-1774979954991.png",
+    "staffPick": false
+  },
+  {
+    "tap": 7,
+    "name": "Huckleberry Lemonade",
+    "brewery": "Portland Cider Co",
+    "location": "Portland, OR",
+    "style": "Hard Cider",
+    "abv": "6.1",
+    "price": "7",
+    "logo": "logo-1774980020960.png",
+    "staffPick": false
+  },
+  {
+    "tap": 8,
+    "name": "Deadhead IPA Series: TourBus",
+    "brewery": "DESTIHL",
+    "location": "Normal, Il",
+    "style": "Double Hazy IPA",
+    "abv": "7.4",
+    "price": "7",
+    "logo": "logo-1774980288964.png",
+    "staffPick": false
+  }
+]

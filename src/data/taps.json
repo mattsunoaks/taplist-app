@@ -1,0 +1,67 @@
+[
+  {
+    "tap": 1,
+    "name": "Deschutes Black Butte Porter",
+    "brewery": "Deschutes Brewery",
+    "location": "Bend, OR",
+    "style": "Porter",
+    "abv": 5.2,
+    "staffPick": true
+  },
+  {
+    "tap": 2,
+    "name": "Sierra Nevada Pale Ale",
+    "brewery": "Sierra Nevada Brewing",
+    "location": "Chico, CA",
+    "style": "Pale Ale",
+    "abv": 5.6
+  },
+  {
+    "tap": 3,
+    "name": "Lagunitas IPA",
+    "brewery": "Lagunitas Brewing",
+    "location": "Petaluma, CA",
+    "style": "IPA",
+    "abv": 6.2
+  },
+  {
+    "tap": 4,
+    "name": "Widmer Hefeweizen",
+    "brewery": "Widmer Brothers",
+    "location": "Portland, OR",
+    "style": "Hefeweizen",
+    "abv": 4.9
+  },
+  {
+    "tap": 5,
+    "name": "New Belgium Fat Tire",
+    "brewery": "New Belgium Brewing",
+    "location": "Fort Collins, CO",
+    "style": "Amber Ale",
+    "abv": 5.2
+  },
+  {
+    "tap": 6,
+    "name": "Coors Banquet",
+    "brewery": "Coors Brewing Co.",
+    "location": "Golden, CO",
+    "style": "Lager",
+    "abv": 5.0
+  },
+  {
+    "tap": 7,
+    "name": "Firestone 805",
+    "brewery": "Firestone Walker",
+    "location": "Paso Robles, CA",
+    "style": "Blonde Ale",
+    "abv": 4.7
+  },
+  {
+    "tap": 8,
+    "name": "Stone Arrogant Bastard",
+    "brewery": "Stone Brewing",
+    "location": "Escondido, CA",
+    "style": "Strong Ale",
+    "abv": 7.2
+  }
+]
