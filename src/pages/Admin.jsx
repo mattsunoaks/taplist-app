@@ -116,7 +116,6 @@ export default function Admin() {
               <div className="tap-row-meta">
                 <span className="tap-row-style">{tap.style}</span>
                 <span className="tap-row-abv">{tap.abv}% ABV</span>
-                {tap.price > 0 && <span className="tap-row-price">${Number(tap.price).toFixed(2)}</span>}
               </div>
               {tap.staffPick && <span className="tap-row-pick">STAFF PICK</span>}
               <div className="tap-row-btns">

@@ -105,8 +105,8 @@ body::before {
 }
 
 .tap-number {
-  font-size: 0.7rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 800;
   color: #727272;
   letter-spacing: 0.15em;
 }
@@ -165,21 +165,8 @@ body::before {
   margin-bottom: 4px;
 }
 
-.beer-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2px;
-}
-
 .location {
   font-size: 0.82rem;
   color: #727272;
   line-height: 1.5;
-}
-
-.price {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #FFDB00;
 }

@@ -57,10 +57,6 @@ export default function TapForm({ initial, onSave, onCancel, saving }) {
           ABV %
           <input type="number" step="0.1" min="0" max="30" value={form.abv} onChange={e => set('abv', e.target.value)} />
         </label>
-        <label>
-          Price $
-          <input type="number" step="0.25" min="0" value={form.price} onChange={e => set('price', e.target.value)} />
-        </label>
       </div>
 
       <div className="form-logo">

@@ -18,10 +18,7 @@ export default function TapCard({ tap }) {
         <span className="style-pill">{tap.style}</span>
         <span className="abv">{tap.abv}% ABV</span>
       </div>
-      <div className="beer-footer">
-        <p className="location">{tap.location}</p>
-        {tap.price > 0 && <span className="price">${Number(tap.price).toFixed(2)}</span>}
-      </div>
+      <p className="location">{tap.location}</p>
     </div>
   );
 }
